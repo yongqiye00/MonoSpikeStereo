@@ -1,0 +1,24 @@
+# Test preset for the included sample NPZ.
+# Usage:
+#   python test.py --config configs/test/test_sample.yaml
+
+npz_path: data/samples/test_npz
+checkpoint: checkpoints/monospikestereo.pth
+output_dir: test_outputs/sample
+save_method_name: sample
+
+name: monospikestereo
+net_type: flow
+device: cuda
+checkpoint_dir: checkpoints
+
+batch_size: 1
+num_workers: 0
+sequence_length: 33
+state_history: 4
+crop_size: 64x64
+
+max_test_batches: 0
+save_every_n_frames: 16
+pred_only: true
+save_inputs_gt: true

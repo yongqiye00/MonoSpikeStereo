@@ -1,0 +1,138 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.dylib
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+share/python-wheels/
+wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.cache/
+nosetests.xml
+*.cover
+*.py,cover
+hypothesis/
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+
+# Local settings / secrets
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets.*
+*.secret
+*.token
+configs/**/*_my.yaml
+
+# Logs
+*.log
+logs/
+runs/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE / editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts / temporary
+tmp/
+temp/
+*.tmp
+
+# Project data and artifacts (large/generated)
+data/train_npz*
+data/test_npz*
+data/raw/
+data/processed/
+checkpoints/
+outputs/
+test_outputs/
+inference_outputs/
+
+# Keep folder structure if needed
+!data/.gitkeep
+!data/samples/
+!data/samples/.gitkeep
+!data/samples/README.md
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!checkpoints/.gitkeep
+!outputs/.gitkeep
+!logs/.gitkeep
+
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.svg
+*.npy
+*.txt
+
+# Ignore model/weight files
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.bin
+*.safetensors
+*.h5
+*.hdf5
+*.pb
+*.tflite

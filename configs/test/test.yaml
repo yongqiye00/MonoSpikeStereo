@@ -1,0 +1,24 @@
+# Test preset.
+# Usage:
+#   python test.py --config configs/test/test.yaml
+
+npz_path: data/test_npz
+checkpoint: checkpoints/monospikestereo.pth
+output_dir: test_outputs/test
+save_method_name: monospikestereo
+
+name: monospikestereo
+net_type: flow
+device: cuda
+checkpoint_dir: checkpoints
+
+batch_size: 1
+num_workers: 4
+sequence_length: 129
+state_history: 4
+crop_size: 256x256
+
+max_test_batches: 0
+save_every_n_frames: 1
+pred_only: true
+save_inputs_gt: true

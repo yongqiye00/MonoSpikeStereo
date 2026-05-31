@@ -1,0 +1,28 @@
+# Raw-spike inference preset for the included sample NPZ.
+# Usage:
+#   python inference.py --config configs/inference/inference_sample.yaml
+
+npz_path: data/samples/test_npz
+checkpoint: checkpoints/monospikestereo.pth
+output_dir: inference_outputs/sample
+save_method_name: sample_spk
+
+name: monospikestereo
+net_type: flow
+device: cuda
+checkpoint_dir: checkpoints
+
+batch_size: 1
+num_workers: 0
+sequence_length: 33
+state_history: 4
+crop_size: 64x64
+
+max_files: 0
+save_every_n_frames: 16
+ref_source: spk
+spike_reg: 1.0e-3
+save_inputs: true
+save_gt: true
+export_videos: true
+split_progress: false

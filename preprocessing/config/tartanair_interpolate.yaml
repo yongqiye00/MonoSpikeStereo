@@ -1,0 +1,13 @@
+# TartanAir frame interpolation.
+
+input_root: data/tartanair/raw
+output_root: data/tartanair/interp
+raft_model_path: preprocessing/RAFT/models/raft-things.pth
+
+num_interpolations: 59
+crop_size: 320x320
+max_frames: null
+group_size: 3
+max_groups: 100
+group_skip: 4
+use_bidirectional_flow: true

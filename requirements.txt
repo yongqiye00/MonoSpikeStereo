@@ -1,0 +1,13 @@
+numpy
+torch
+torchvision
+tensorboard
+torchmetrics
+tqdm
+imageio
+opt_einsum
+timm
+PyYAML
+Pillow
+opencv-python
+typing-extensions

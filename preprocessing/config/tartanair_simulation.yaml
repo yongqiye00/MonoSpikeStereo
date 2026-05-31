@@ -1,0 +1,16 @@
+# TartanAir mixed-spike simulation.
+
+pipeline: tartanair_simulation
+dataset: tartanair
+
+params:
+  root: data/tartanair/interp
+  out: data/tartanair/sim
+  threshold: 0.5
+  length: 20
+  noise: false
+  noise_level: 0.01
+  crop: 256x256
+  random_crop: false
+  lcd: true
+  save_spike_sequences: true
