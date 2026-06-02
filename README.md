@@ -1,5 +1,7 @@
 # [CVPR 2026] 240FPS Stereo Vision from Monocular Mixed Spikes
 
+[Paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Xiaokaiti_240FPS_Stereo_Vision_from_Monocular_Mixed_Spikes_CVPR_2026_paper.pdf)
+
 Yeliduosi Xiaokaiti, Yakun Chang,
 Yang Bai, Zhaojun Huang,
 Peiqi Duan, Boxin Shi<sup>*</sup>
@@ -125,6 +127,17 @@ In the paper, depth estimation is performed with
 [CREStereo](https://github.com/megvii-research/CREStereo).
 
 ## Citation
+
+```bibtex
+@InProceedings{Xiaokaiti_2026_CVPR,
+    author    = {Xiaokaiti, Yeliduosi and Chang, Yakun and Bai, Yang and Huang, Zhaojun and Duan, Peiqi and Shi, Boxin},
+    title     = {240FPS Stereo Vision from Monocular Mixed Spikes},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {26688-26697}
+}
+```
 
 ## Acknowledgements
 
